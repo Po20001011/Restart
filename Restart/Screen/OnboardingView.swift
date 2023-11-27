@@ -3,7 +3,7 @@
 //  Restart
 //
 //  Created by Wang Po on 27/11/2023.
-//
+// Onboarding Screen
 
 import SwiftUI
 
@@ -106,7 +106,7 @@ struct OnboardingView: View {
                         .foregroundColor(.white)
                     .frame(width: 80, height: 80, alignment: .center)
                     .onTapGesture {
-                        isOnboardingViewActive = false 
+                        isOnboardingViewActive = false
                     }
                         
                         Spacer()
